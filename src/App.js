@@ -8,11 +8,10 @@ function App() {
   console.log();
   return (
     <myContext.Provider value={{ backgroundColor: theme }}>
-     
       <div>
         <FirstComponent amount={9} />
         <button onClick={() => setTheme(theme == "red" ? "green" : "red")}>
-          Toggle theme
+          Toggle thene
         </button>
       </div>
     </myContext.Provider>
