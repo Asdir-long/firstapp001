@@ -4,7 +4,7 @@ import { FirstComponent } from "./countComponentHook";
 export const myContext = React.createContext();
 
 function App() {
-  const [theme, setTheme] = useState("red");
+  const [theme, setTheme] = useState("green");
   console.log();
   return (
     <myContext.Provider value={{ backgroundColor: theme }}>
