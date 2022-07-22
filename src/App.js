@@ -11,7 +11,7 @@ function App() {
       <div>
         <FirstComponent amount={9} />
         <button onClick={() => setTheme(theme == "red" ? "green" : "red")}>
-          Toggle thene
+          Toggle th
         </button>
       </div>
     </myContext.Provider>
