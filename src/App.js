@@ -4,13 +4,13 @@ import { FirstComponent } from "./countComponentHook";
 export const myContext = React.createContext();
 
 function App() {
-  const [theme, setTheme] = useState("green");
+  const [theme, setTheme] = useState("white");
   console.log();
   return (
     <myContext.Provider value={{ backgroundColor: theme }}>
       <div>
         <FirstComponent amount={9} />
-        <button onClick={() => setTheme(theme == "red" ? "green" : "red")}>
+        <button onClick={() => setTheme(theme == "white" ? "lightgrey" : "white")}>
           Toggle th
         </button>
       </div>
